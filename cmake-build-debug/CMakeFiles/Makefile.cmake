@@ -7,6 +7,13 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "../CMakeLists.txt"
+  "CMakeFiles/3.13.2/CMakeCCompiler.cmake"
+  "CMakeFiles/3.13.2/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.13.2/CMakeRCCompiler.cmake"
+  "CMakeFiles/3.13.2/CMakeSystem.cmake"
+  "CMakeFiles/feature_tests.c"
+  "CMakeFiles/feature_tests.cxx"
   "U:/CLion 2018.3.3/bin/cmake/win/share/cmake-3.13/Modules/CMakeCCompiler.cmake.in"
   "U:/CLion 2018.3.3/bin/cmake/win/share/cmake-3.13/Modules/CMakeCCompilerABI.c"
   "U:/CLion 2018.3.3/bin/cmake/win/share/cmake-3.13/Modules/CMakeCInformation.cmake"
@@ -99,13 +106,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "U:/CLion 2018.3.3/bin/cmake/win/share/cmake-3.13/Modules/Platform/Windows.cmake"
   "U:/CLion 2018.3.3/bin/cmake/win/share/cmake-3.13/Modules/Platform/WindowsPaths.cmake"
   "U:/CLion 2018.3.3/bin/cmake/win/share/cmake-3.13/Modules/ProcessorCount.cmake"
-  "../CMakeLists.txt"
-  "CMakeFiles/3.13.2/CMakeCCompiler.cmake"
-  "CMakeFiles/3.13.2/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.13.2/CMakeRCCompiler.cmake"
-  "CMakeFiles/3.13.2/CMakeSystem.cmake"
-  "CMakeFiles/feature_tests.c"
-  "CMakeFiles/feature_tests.cxx"
   )
 
 # The corresponding makefile is:

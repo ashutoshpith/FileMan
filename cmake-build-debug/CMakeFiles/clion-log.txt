@@ -1,4 +1,4 @@
-"U:\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" U:\Hatchwin\cpp\FileMan
+"U:\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" H:\cpp\FileMan
 -- The C compiler identification is GNU 8.2.0
 -- The CXX compiler identification is GNU 8.2.0
 -- Check for working C compiler: C:/MinGW/bin/gcc.exe
@@ -15,4 +15,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: U:/Hatchwin/cpp/FileMan/cmake-build-debug
+-- Build files have been written to: H:/cpp/FileMan/cmake-build-debug
