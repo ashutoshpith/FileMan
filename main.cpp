@@ -10,16 +10,14 @@ int main() {
 
     cout<<"#########\n"<<endl;
 
-    string str;
+    string str,str1;
      ifstream file;
 
-     vector<string> vector1;
 
      file.open("hello.txt");
      if (file.is_open()){
          while(getline(file,str)){
-             //cout<<str<<endl;
-             vector1.push_back(str);
+             cout<<str<<endl;
 
          }
          file.close();
@@ -28,10 +26,20 @@ int main() {
      else
          cout<<"\nnot done"<<endl;
 
-        for(auto i:vector1)
-            cout<<i<<endl;
+     cout<<"#############"<<endl;
 
+    for(int i=0; str[i]; i++)
+        if(str[i] == ' ')
+            str.erase(i,1);
+        
+    cout<<str<<endl;
 
+    ofstream filel("hello.txt", ios::app);
+    if(filel.is_open()){
+        filel<<str<<endl;
+        filel.close();
+
+    }
 
     return 0;
 }
